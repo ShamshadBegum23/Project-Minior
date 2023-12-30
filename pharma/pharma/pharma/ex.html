@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Page</title>
+</head>
+<body>
+    <form>
+        <!-- Your form elements go here -->
+        <label for="output">Value from JS File:</label>
+        <input type="text" id="output" readonly>
+    </form>
+
+    <!-- Include the JavaScript file -->
+    <script src="script1.js"></script>
+
+    <!-- Access the value and set it to the form input -->
+    <script>
+        // Access the value from script.js
+        var valueFromJSFile = myValue;
+
+        // Set the value to the form input with id "output"
+        document.getElementById("output").value ="hii";
+    </script>
+</body>
+</html>

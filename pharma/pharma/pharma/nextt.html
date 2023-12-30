@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home page</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+        <link rel="stylesheet" href="style_card.css">
+    </head>
+
+    <body>
+
+        <section id="header">
+            <a href="#"><img src="images/logo.jpg" class="logo" height=100px width=100px alt=""></a>
+
+            <div>
+                <ul id="navbar">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="download.jpeg" width="100%" id="MainImg" alt="" style="height:290px">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="download.jpeg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="download.jpeg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="download.jpeg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="download.jpeg" width="100%" class="small-img" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="single-pro-details">
+                <h6>Home / Tablets</h6>
+                <h4>Sugar diagnosis Tablers</h4>
+                <h2>$100</h2>
+                <input type="number" value="1">
+                <button class="normal">Add to Cart</button>
+                <h4>Product Details</h4>
+                <span>
+                    The blood sugar goal for most adults with diabetes is an A1C of below 7%.
+                     (A1C is a measure of a person’s average blood sugar over a period of about three months.) 
+                     In many people, diet and exercise are not enough to reach this goal, 
+                     and one or more medications may be needed. Metformin is a tried and 
+                     tested medicine that has been used for many decades to treat type 2 diabetes, and is re
+                     commended by most experts as first-line therapy. 
+                </span>
+            </div>
+     <section>
+        <script>
+            var Mainimg=document.getElementById("MainImg"); 
+            var smallimg=document.getElementByClassName("small-img");
+
+            smallimg[0].onclick=function() {
+                Mainimg.src=smallimg[0].src;
+            }
+            smallimg[1].onclick=function(){
+                Mainimg.src=smallimg[1].src;
+            }
+            smallimg[2].onclick=function(){
+                Mainimg.src=smallimg[2].src;
+            }
+            smallimg[3].onclick=function(){
+                Mainimg.src=smallimg[3].src;
+            }
+        </script>
+        <script src="srcipt.js"></script>
+    </body>
+</html>

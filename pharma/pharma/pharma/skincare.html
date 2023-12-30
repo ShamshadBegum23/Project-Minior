@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharma</title>
+    <link rel="stylesheet" href="stylenc.css">
+    <style>
+        body{
+            text-transform: capitalize;
+        }
+    </style>
+
+</head><script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<body>
+    
+    <header>
+    <div class="nav container">
+        
+        <a href="index.html" class="logo"><H2 style="font-size: 1.7rem;">PHAMRA</H2></a>
+        <li><a style="color: black; font-size: 1.2rem;" href="index.html">Home</a></li>
+        <li><a style="color: black; font-size: 1.2rem;"  href="about.html">About</a></li>
+        <li><a style="color: black; font-size: 1.2rem;"  href="resume.html">Blog
+        </a></li>
+        <li><a style="color: black; font-size: 1.2rem;"  href="review.html">Contact</a></li>
+        <box-icon name='shopping-bag' id="cart-icon" data-quantity="0"></box-icon>
+        <div class="cart">
+            <h2 style="margin-left: 7rem;" class="cart-title">Your cart</h2>
+            <a href="login1.php" id="paynow"><button type="button" class="btn-buy" >paynow</button></a>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <!-- <h2 style="margin-left: 7rem;" class="cart-title">Your cart</h2> -->
+            <div class="cart-content">
+                
+            </div>
+            <!-- <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div> -->
+            <!-- <a href="login1.php?total=0" id="paynow"><button type="button" class="btn-buy" >paynow</button></a> -->
+            <!-- <a href="login1.php" id="paynow"><button type="button" class="btn-buy" >paynow</button></a> -->
+            <box-icon type='solid' name='x-circle' id="close-cart"></box-icon>
+        </div>
+    </div>
+</header>
+<section class="shop container">
+    <h1 class="section-title">Skin Care</h1>
+    <img style="width: 100%;margin-bottom: 2.5rem; height: 16rem;" src="Screenshot 2023-08-07 232222.png" alt="">
+    <div class="shop-content">
+    <div class="product-box">
+        <img src="brightening-mens-facewash.webp" alt="not found" class="product-img">
+        <h2 class="product-title">Brightening Face Wash</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$40</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="brightening-serum.webp" alt="not found" class="product-img">
+        <h2 class="product-title">Brightening Serum</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$15</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="Brillare-Hylauronic-Acid-Face-Serum-1.webp" alt="not found" class="product-img">
+        <h2 class="product-title">Brillare-Hylauronic</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$21</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="derma-face-wash.jpg" alt="not found" class="product-img">
+        <h2 class="product-title">Derma Face Wash</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$30</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="dove-men-care.jpeg" alt="not found" class="product-img">
+        <h2 class="product-title">Dove Mens Care</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$20</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="groomd-face-moisture.jpg" alt="not found" class="product-img">
+        <h2 class="product-title">GroomdFace Moisture</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$25</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="lab-series-serum.jpg" alt="not found" class="product-img">
+        <h2 class="product-title">Lab Series Serum</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$20</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img  src="lumin-face-wash-men.webp" alt="not found" class="product-img">
+        <h2 class="product-title">Lumin Face Wash</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$17</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="/men-face-gel.webp" alt="not found" class="product-img">
+        <h2 class="product-title">Men Face Gel</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$22</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="mens-repair-serum.jpg" alt="not found" class="product-img">
+        <h2 class="product-title">Repair Serum</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$10</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="brightening-serum.webp" alt="not found" class="product-img">
+        <h2 class="product-title">Mens Skin Care </h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$15</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="mirous-men-skin-care.jpg" alt="not found" class="product-img">
+        <h2 class="product-title">Mirous Skin Care</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$16</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="natural-element-face-wash-men.jpeg" alt="not found" class="product-img">
+        <h2 class="product-title">Natural Element</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$20</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="oil-free-gel.webp" style="height: 180px;" alt="not found" class="product-img">
+        <h2 class="product-title">Oil Free Gel</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$7</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="ozone-skin-tone.jpg" alt="not found" class="product-img">
+        <h2 class="product-title">Ozone-Skin-Tone</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$5</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="sandalwood_orange_peel.png" alt="not found" class="product-img">
+        <h2 class="product-title">Sandalwood Orange Peel</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$50</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="Skin-La-Roche-Posay.webp" style="height: 11rem;" alt="not found" class="product-img">
+        <h2 class="product-title">Skin-La-Roche-Posay</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$20</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="skin-serum.jpg" alt="not found" style="height: 11rem;" class="product-img">
+        <h2 class="product-title">Skin Serum</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$6</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="soothing-cleanser.jpg" alt="not found"  style="height: 11rem;" class="product-img">
+        <h2 class="product-title">Soothing Cleanser</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$11</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="vilvah-mens-skin-care.webp" alt="not found" class="product-img">
+        <h2 class="product-title">vilvah-mens</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$4</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="Vitamin-C-Serum.webp" alt="not found" class="product-img">
+        <h2 class="product-title">Vitamin-C-Serum</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$8</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <!-- <div class="product-box">
+        <img src="soap.jpg" alt="not found" class="product-img">
+        <h2 class="product-title">pears</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$15</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="hajmol.jpg" alt="not found" class="product-img">
+        <h2 class="product-title">hajmol</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$11</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="rose.bmp" alt="not found" class="product-img">
+        <h2 class="product-title">rose water</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$20</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="nail.bmp" alt="not found" class="product-img">
+        <h2 class="product-title">nail polish
+        </h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$13</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="hepa.jpg" alt="not found" class="product-img">
+        <h2 class="product-title">hepa</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$3</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="himalaya.jpg" alt="not found" class="product-img">
+        <h2 class="product-title">himalaya cream</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$5</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="ayarved.bmp" alt="not found" class="product-img">
+        <h2 class="product-title">heposem</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$2</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="synsodene.bmp" alt="not found" class="product-img">
+        <h2 class="product-title">synsoden</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$10</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="brush.bmp" alt="not found" class="product-img">
+        <h2 class="product-title">makeup brush</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$5</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="i.bmp" alt="not found" class="product-img">
+        <h2 class="product-title">i-can</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$5</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="veet.bmp" alt="not found" class="product-img">
+        <h2 class="product-title">veet</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$17</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="vlc.jpg" alt="not found" class="product-img">
+        <h2 class="product-title">VLC</h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$5</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="wash.bmp" alt="not found" class="product-img">
+        <h2 class="product-title">hair wash </h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$5</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="lacto.bmp" alt="not found" class="product-img">
+        <h2 class="product-title">lacto </h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$7</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div>
+    <div class="product-box">
+        <img src="setwet.jpg" alt="not found" class="product-img">
+        <h2 class="product-title">setwet </h2>
+        <p>inclusive of all taxes</p>
+        <span class="price">$5</span>
+        <box-icon name='shopping-bag' class="add-cart"></box-icon>
+    </div> -->
+</div>
+</section>
+<footer class="footer">
+    <div class="container1">
+      <div class="row">
+        <div class="footer-col">
+          <h3>Featured categories</h3>
+          <ul>
+            <li><a href="#">personal care</a></li>
+            <li><a href="#">health care</a></li>
+            <li><a href="#">diabetic care</a></li>
+            <li><a href="#">skin care</a></li>
+            <li><a href="#">trending products</a></li>
+            <li><a href="#">Home care</a></li>
+            <li><a href="#">Fitness care</a></li>
+            <li><a href="#">Cardiac care</a></li>
+            <li><a href="#">Baby care</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Get help</h3>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">payment options</a></li>
+            <li><a href="#">details</a></li>
+            <li><a href="#">Others</a></li>
+            <li><a href="#">Ordering</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Our services</h3>
+          <ul>
+            <li><a href="#">Order medicine</a></li>
+            <li><a href="#">Health care products</a></li>
+            <li><a href="#">Return policy</a></li>
+            <li><a href="#">Find Nearest Collection centre</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Follow us</h3>
+          <div class="social-links">
+            <a href="#"><img style="width: 30px;" src="facebook.svg"></a>
+            <a href="#"><img style="width: 30px;" src="instagram.svg"></a>
+            <a href="#"><img style="width: 30px;" src="twitter.svg"></a>
+            <a href="#"><img style="width: 30px;" src="linkedin.svg"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+<script src="mainnt.js"></script>
+<script src="cart.js"></script>
+</body>
+</html>

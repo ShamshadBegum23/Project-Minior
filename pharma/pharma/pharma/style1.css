@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.background{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.background::before{
+    content: '';
+    background-image: url(cc752e08-d477-4953-8a41-79411e3209d0_1681456485.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: ;
+}

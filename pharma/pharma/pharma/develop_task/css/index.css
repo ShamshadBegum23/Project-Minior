@@ -1,0 +1,32 @@
+.m_form{
+    width:60%;
+    height:90%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    margin-top: 20px;
+    padding: 30px;
+}
+.form-control{
+    width: 30vw;
+    margin-right: 100px;
+}
+h2{
+    position: relative;
+    left:200px;
+}
+form{
+    margin-top: 50px;
+}
+.btn{
+    margin-top:20px;
+    background-color: aquamarine;
+    width:30vw;
+    cursor: pointer;
+    margin-bottom:10px;
+}
+.btn:hover{
+    background-color:black ;
+    color:white;
+}
